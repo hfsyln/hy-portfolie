@@ -1,30 +1,34 @@
-// import Proj1 from "../assets/proj1.jpg";
-// import Proj2 from "../assets/proj2.jpg";
-// import Proj3 from "../assets/proj3.webp";
-// import Proj4 from "../assets/proj4.webp";
+import Proj1 from "../assest/image1.png";
+import Proj2 from "../assest/image2.png";
+import Proj3 from "../assest/image3.png";
+import Proj4 from "../assest/image4.png";
 // import Proj5 from "../assets/proj5.jpg";
 // import Proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
-    //image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    name: "E-Commerce Website/CONFYSLOTH",
+    image: Proj1,
+    skills: "React.js, Redux, HTML,CSS",
+    link: "https://github.com/hfsyln/confysloth"
   },
   {
-    name: "Ecommerce Website",
-    //image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    name: "MovieAPP",
+    image: Proj2,
+    skills: "React.js, Bootstrap, HTML, CSS, API, Firebase",
+    link: "https://github.com/hfsyln/movie-app"
   },
   {
-    name: "Spotify Clone",
-    //image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
+    name: "WeatherAPP",
+    image: Proj3,
+    skills: "React.js, API, HTML. CSS, Bootstrap",
+    link: "https://github.com/hfsyln/weather-react"
   },
   {
-    name: "Social Media Website",
-   // image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
+    name: "Task-Tracker",
+    image: Proj4,
+    skills: "React.js, HTML, CSS",
+    link: "https://github.com/hfsyln/react-tracker"
   },
   {
     name: "Dashboard Visualizer",

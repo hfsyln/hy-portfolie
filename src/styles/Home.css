@@ -4,7 +4,9 @@
     font-family: "Arial", sans-serif;
     color: #3e497a;
   }
-  
+  .photo {
+    width: 10rem;
+  }
   .about {
     width: 100%;
     height: calc(100vh - 100px);

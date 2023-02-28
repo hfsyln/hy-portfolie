@@ -3,17 +3,20 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
+import photo from "../assest/pp.jpeg"
 
 function Home() {
   return (
     <div className="home">
+      
       <div className="about">
+      <img src={photo} alt=""  className="photo"/>
         <h2> Hi, My Name is Hafsa</h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
+          <a href="https://github.com/hfsyln"><GithubIcon /></a>
           <EmailIcon />
-          <GithubIcon />
+          <a href="https://www.linkedin.com/in/hafsa-yal%C4%B1n-5648b0232/"><LinkedInIcon /></a>
         </div>
       </div>
       <div className="skills">
@@ -22,8 +25,7 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Angular, Redux, HTML, CSS, React Native, Flutter, NPM,
-              Ionic, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents
+              ReactJS, Redux, HTML, CSS, NPM, BootStrap, MaterialUI, Yarn, TailwindCSS, StyledComponents, SASS
             </span>
           </li>
           {/* <li className="item">
